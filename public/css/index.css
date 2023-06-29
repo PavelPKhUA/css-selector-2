@@ -1,1 +1,113 @@
+.lesson-four-task-one button.btn:hover {
+  color: red;
+  background: yellow;
+}
 
+.lesson-four-task-two a.link:hover + h1 {
+  background: green;
+}
+
+#lesson-four-task-three.lesson-four-task-three
+  a.link:visited {
+  color: yellow;
+}
+
+.lesson-four-task-four #sidebar > a.link:link {
+  color: red;
+}
+
+.lesson-four-task-five button.btn:active {
+  background-color: blue;
+}
+
+.lesson-four-task-six button.btn:focus {
+  color: orange;
+  background: orange;
+}
+
+.lesson-four-task-seven #target:target {
+  color: #fff;
+  background: green;
+}
+
+.lesson-four-task-eight #checkbox:checked + #target {
+  color: #fff;
+  background: blue;
+}
+
+.lesson-four-task-nine :lang(uk) {
+  color: blue;
+}
+
+.lesson-four-task-ten .form-control:enabled {
+  color: red;
+  background: yellow;
+}
+
+.lesson-four-task-eleven input:disabled,
+.lesson-four-task-twelve input:read-write,
+.lesson-four-task-thirteen input:read-only {
+  background: yellow;
+}
+
+.lesson-four-task-fourteen input:valid {
+  background: green;
+}
+
+.lesson-four-task-fourteen input:invalid {
+  background: red;
+}
+
+.lesson-four-task-fifteen #message:optional {
+  background: red;
+}
+
+.lesson-four-task-sixteen #quantity:out-of-range {
+  color: red;
+}
+
+.lesson-four-task-seventeen #quantity:in-range {
+  color: red;
+}
+
+.lesson-four-task-eighteen input:placeholder-shown {
+  background: red;
+}
+
+.lesson-four-task-nineteen
+  .btn-group:focus-within
+  button:focus {
+  color: #fff;
+  background: yellow;
+}
+
+.lesson-four-task-twenty input:invalid {
+  background: red;
+}
+
+.lesson-four-task-twenty button {
+  border: 1px dashed rgb(51, 61, 204);
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  color: rgb(2, 0, 131);
+  background: rgb(93, 255, 61);
+  font-weight: 700;
+  font-size: large;
+}
+
+.lesson-four-task-twenty button:hover {
+  color: rgb(150, 149, 224);
+  background: rgb(23, 128, 2);
+}
+
+.lesson-four-task-twenty button:focus {
+  color: #fff;
+  background: rgb(255, 136, 0);
+}
+
+.lesson-four-task-twenty button:active {
+  color: #000;
+  background: #fff;
+  border: 1px solid rgb(51, 61, 204);
+}
