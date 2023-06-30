@@ -74,12 +74,32 @@
   background: red;
 }
 
+/* .lesson-four-task-nineteen .btn-group {
+  padding: 30px;
+} */
+
 .lesson-four-task-nineteen
-  .btn-group:focus-within
+  .btn-group:focus-within/* :after */
   button:focus {
+  /* content: 'Тут повинен бути текст, що стає білим'; */
   color: #fff;
   background: yellow;
+  /* font-weight: 700;
+  font-size: larger; */
 }
+
+/* .lesson-four-task-nineteen button {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0 5px 0 5px;
+  color: #45bb0e;
+  background: #fff;
+}
+
+.lesson-four-task-nineteen button:focus {
+  color: #000;
+  background: #45bb0e;
+} */
 
 .lesson-four-task-twenty input:invalid {
   background: red;
